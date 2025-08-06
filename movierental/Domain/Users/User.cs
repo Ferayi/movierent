@@ -14,12 +14,12 @@ namespace Domain.Users
         public string UserPassword { get; protected set; }
         public string UserMail { get; protected set; }
 
-        protected User(string UserName, string UserPassword, string UserMail)
+        protected User(string userName, string userPassword, string userMail)
         {
             this.UserID = Guid.NewGuid();
-            this.UserName = UserName;
-            this.UserPassword = UserPassword;
-            this.UserMail = UserMail;
+            UserName = userName;
+            UserPassword = userPassword;
+            UserMail = userMail;
         }
       
 

@@ -8,7 +8,7 @@ namespace Domain.Users
 {
     public class Employee : User
     {
-        public Employee(string UserName, string UserPassword, string UserMail) : base(UserName, UserPassword, UserMail)
+        public Employee(string userName, string userPassword, string userMail) : base(userName, userPassword, userMail)
         {
         }
     }

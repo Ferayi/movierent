@@ -16,16 +16,16 @@ namespace Domain.Rental
         public int RentPlannedDaysOfRenting { get; private set; }
         public double RentInterestRate { get; private set; } = 0;
 
-        public Rent(double RentDebt, DateTime RentRentedDay, DateTime? RentReturningDay, int RentPlannedDaysOfRenting, double RentInterestRate)
+        public Rent(double rentDebt, DateTime rentRentedDay, DateTime? rentReturningDay, int rentPlannedDaysOfRenting, double rentInterestRate)
         {
 
 
-            this.RentID = Guid.NewGuid();
-            this.RentDebt = RentDebt;
-            this.RentRentedDay = RentRentedDay;
-            this.RentReturningDay = RentReturningDay;
-            this.RentPlannedDaysOfRenting = RentPlannedDaysOfRenting;
-            this.RentInterestRate = RentInterestRate;
+            RentID = Guid.NewGuid();
+            RentDebt = rentDebt;
+            RentRentedDay = rentRentedDay;
+            RentReturningDay = rentReturningDay;
+            RentPlannedDaysOfRenting = rentPlannedDaysOfRenting;
+            RentInterestRate = rentInterestRate;
         }
     }
 

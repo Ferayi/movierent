@@ -25,17 +25,17 @@ namespace Domain.Movies
        
         
 
-        public Movie(string MovieTitle, string MovieReleaseDate, MovieGenreEnum MovieGenre, decimal MovieRating, int MoviePrice, DateTime MovieAddedDate, int MovieDaysInDisplay, int MovieStock)
+        public Movie(string movieTitle, string movieReleaseDate, MovieGenreEnum movieGenre, decimal movieRating, int moviePrice, DateTime movieAddedDate, int movieDaysInDisplay, int movieStock)
         {
-            this.MovieID = Guid.NewGuid();
-            this.MovieTitle = MovieTitle;
-            this.MovieReleaseDate = MovieReleaseDate;
-            this.MovieGenre = MovieGenre;
-            this.MovieRating = MovieRating;
-            this.MoviePrice = MoviePrice;
-            this.MovieAddedDate = MovieAddedDate;
-            this.MovieDaysInDisplay = MovieDaysInDisplay;
-            this.MovieStock = MovieStock;
+            MovieID = Guid.NewGuid();
+            MovieTitle = movieTitle;
+            MovieReleaseDate = movieReleaseDate;
+            MovieGenre = movieGenre;
+            MovieRating = movieRating;
+            MoviePrice = moviePrice;
+            MovieAddedDate = movieAddedDate;
+            MovieDaysInDisplay = movieDaysInDisplay;
+            MovieStock = movieStock;
         }
         public bool IsAvailable()
         {

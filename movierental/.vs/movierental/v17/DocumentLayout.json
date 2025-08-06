@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|c:\\users\\nusre\\onedrive\\belgeler\\github\\movierent\\movierental\\domain\\users\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|solutionrelative:domain\\users\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|c:\\users\\nusre\\onedrive\\belgeler\\github\\movierent\\movierental\\domain\\users\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|solutionrelative:domain\\users\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|c:\\users\\nusre\\onedrive\\belgeler\\github\\movierent\\movierental\\domain\\users\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|solutionrelative:domain\\users\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|c:\\users\\nusre\\onedrive\\belgeler\\github\\movierent\\movierental\\domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|solutionrelative:domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|c:\\users\\nusre\\onedrive\\belgeler\\github\\movierent\\movierental\\domain\\rental\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|solutionrelative:domain\\rental\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|c:\\users\\nusre\\onedrive\\belgeler\\github\\movierent\\movierental\\domain\\movies\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D7242A-5C6E-473A-B316-3EAC13DBE993}|Domain\\Domain.csproj|solutionrelative:domain\\movies\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +34,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Users\\Admin.cs",
+              "RelativeDocumentMoniker": "Domain\\Users\\Admin.cs",
+              "ToolTip": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Users\\Admin.cs",
+              "RelativeToolTip": "Domain\\Users\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T12:02:50.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Users\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Users\\Customer.cs",
+              "ToolTip": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Users\\Customer.cs",
+              "RelativeToolTip": "Domain\\Users\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T12:02:32.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Users\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Users\\Employee.cs",
+              "ToolTip": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Users\\Employee.cs",
+              "RelativeToolTip": "Domain\\Users\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T12:01:50.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Users\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Users\\User.cs",
+              "ToolTip": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Users\\User.cs",
+              "RelativeToolTip": "Domain\\Users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T12:01:08.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rent.cs",
+              "DocumentMoniker": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Rental\\Rent.cs",
+              "RelativeDocumentMoniker": "Domain\\Rental\\Rent.cs",
+              "ToolTip": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Rental\\Rent.cs",
+              "RelativeToolTip": "Domain\\Rental\\Rent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T12:00:20.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Movies\\Movie.cs",
+              "RelativeDocumentMoniker": "Domain\\Movies\\Movie.cs",
+              "ToolTip": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Movies\\Movie.cs",
+              "RelativeToolTip": "Domain\\Movies\\Movie.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T11:58:35.473Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
