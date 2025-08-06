@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Application\\Application.csproj": {}
+    "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Application\\Application.csproj": {
+    "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\UĞUR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Application\\obj\\",
+        "projectPath": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\nusre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\UĞUR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nusre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Domain\\Domain.csproj"
+              "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Domain.csproj"
               }
             }
           }
@@ -44,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -60,21 +64,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Domain\\Domain.csproj": {
+    "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\UĞUR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UĞUR\\Documents\\GitHub\\movierent\\movierental\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\nusre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nusre\\OneDrive\\Belgeler\\GitHub\\movierent\\movierental\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\UĞUR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nusre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +95,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -100,7 +112,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -116,7 +129,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
