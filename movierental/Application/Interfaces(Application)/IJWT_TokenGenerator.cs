@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces
 {
-    public interface IJW_TokenGenerator
+    public interface IJWT_TokenGenerator
     {
         string GenerateToken(User user,UserRoleEnum role);
     }

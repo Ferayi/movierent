@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces_Application_
 {
-    public interface IAuthService
+    public interface IAuthenticationService
     {
         Task<string> RegisterAsync(string user_mail,string user_name, string user_password, UserRoleEnum role);
         Task<string> LoginAsync(string user_mail, string user_password);
